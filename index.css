@@ -1,0 +1,15 @@
+input {
+    margin: 10px;
+    border: 1px solid black;
+}
+table {
+    border: solid;
+}
+td, th {
+    border: 1px solid black;
+    padding: 20px;
+}
+fieldset {
+    width: fit-content;
+    background-color: grey;
+}

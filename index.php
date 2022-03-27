@@ -89,7 +89,7 @@ show_table($td_data);
 
 function show_table($data){
     echo ("<div>
-    <table border = \"1\">
+    <table>
         <tr>
             <th>Откуда</th>
             <th>Куда</th>
@@ -113,5 +113,7 @@ function show_table($data){
     echo ("</table>
 </div>");
 }
-
-
+echo ('<style  
+    media="all">
+    @import url("index.css");
+    </style>');
