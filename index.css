@@ -12,4 +12,5 @@ td, th {
 fieldset {
     width: fit-content;
     background-color: grey;
+    border: solid;
 }
