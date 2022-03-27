@@ -93,6 +93,7 @@ function show_table($data){
         <tr>
             <th>Откуда</th>
             <th>Куда</th>
+            <th>Вес</th>
             <th>Компания</th>
             <th>Дата доставки</th>
             <th>Стоимость</th>
@@ -102,6 +103,7 @@ function show_table($data){
         echo("<tr>
             <td>".$row['source']."</td>
             <td>".$row['destination']."</td>
+            <td>".$row['weight']."</td>
             <td>".$row['company']."</td>
             <td>".$row['date']."</td>
             <td>".$row['price']."</td>
